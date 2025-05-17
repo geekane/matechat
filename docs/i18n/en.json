@@ -1,0 +1,14 @@
+{
+    "nav": {
+        "design": "Design",
+        "component": "Component",
+        "guide": "Guide",
+        "demo": "Demo"
+    },
+    "home": {
+        "learnSystem": "Learn more",
+        "useNow": "use",
+        "howToUse": "How to use MateChat",
+        "send": "Send"
+    }
+}

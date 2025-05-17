@@ -1,0 +1,21 @@
+<svg width="1920.000000" height="977.000000" viewBox="0 0 1920 977" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip176_39319">
+			<rect width="1920.000000" height="977.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<linearGradient x1="1680.500244" y1="0.000031" x2="1322.000122" y2="1361.000000" id="paint_linear_176_39318_0" gradientUnits="userSpaceOnUse">
+			<stop offset="0.010504" stop-color="#D3B9FF"/>
+			<stop offset="0.149162" stop-color="#FFEDE7"/>
+			<stop offset="0.286270" stop-color="#F6CDFF"/>
+			<stop offset="0.500574" stop-color="#C1D6FF"/>
+			<stop offset="0.716214" stop-color="#DEE7FF"/>
+			<stop offset="0.906420" stop-color="#EDF4FF"/>
+		</linearGradient>
+	</defs>
+	<g clip-path="url(#clip176_39319)">
+		<path d="M2194 1188.18C2194 1283.62 2116.62 1361 2021.18 1361L622.82 1361C527.37 1361 450 1283.62 450 1188.18L450 210.77C450 101.72 549.75 19.93 656.69 41.3L1288.13 167.5C1310.49 171.96 1333.51 171.96 1355.87 167.5L1987.31 41.3C2094.24 19.93 2194 101.72 2194 210.77L2194 1188.18Z" stroke="url(#paint_linear_176_39318_0)" stroke-opacity="1.000000" stroke-width="60.000000"/>
+	</g>
+</svg>

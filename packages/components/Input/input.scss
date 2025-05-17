@@ -1,0 +1,42 @@
+@import 'devui-theme/styles-var/devui-var.scss';
+
+.mc-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 4px 0;
+  border: 1px solid $devui-form-control-line;
+  border-radius: 14px;
+  box-sizing: border-box;
+
+  &.mc-input-disabled {
+    background-color: $devui-disabled-bg;
+    cursor: not-allowed;
+  }
+
+  .mc-input-content {
+    display: flex;
+    align-items: flex-end;
+    padding: 0 8px;
+  }
+
+  .mc-input-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+    padding: 0 8px;
+
+    .mc-input-foot-left {
+      flex: 1;
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+      .mc-input-foot-count {
+        color: $devui-text;
+        font-size: $devui-font-size;
+      }
+    }
+  }
+}

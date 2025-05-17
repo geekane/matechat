@@ -1,0 +1,48 @@
+.title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 1.5;
+  color: #302e51;
+  &::before {
+    content: '';
+    display: block;
+    margin: 0 10px;
+    width: 1.5em;
+    height: 1em;
+    background: no-repeat center / cover url(/png/home/titleLeft.svg);
+  }
+  &::after {
+    content: '';
+    display: block;
+    margin: 0 10px;
+    width: 1.5em;
+    height: 1em;
+    background: no-repeat center / cover url(/png/home/titleRight.svg);
+  }
+}
+
+.title-desc {
+  margin-top: 8px;
+  max-width: 60%;
+  font-size: 16px;
+  text-align: center;
+  color: $devui-aide-text;
+}
+
+@media (max-width: 1600px) {
+  .title {
+    font-size: 38px;
+  }
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 25px;
+  }
+  .title-desc {
+    font-size: 12px;
+    max-width: 80%;
+  }
+}

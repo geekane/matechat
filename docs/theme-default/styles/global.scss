@@ -1,0 +1,79 @@
+@import 'devui-theme/styles-var/devui-var.scss';
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  overflow-y: scroll; //这是为了兼容ie8，不支持:root, vw
+}
+
+html:hover {
+  scrollbar-color: $devui-line transparent;
+}
+
+body[ui-theme='galaxy-theme'] #content-slider-tabs {
+  --devui-base-bg: #3f3f3f;
+  ul {
+    background-color: #1a1a1c99 !important;
+  }
+}
+
+body[ui-theme='galaxy-theme'] #icon-container {
+  background-color: #1a1a1c99 !important;
+}
+
+body {
+  background-color: $devui-base-bg;
+}
+
+.devui-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.devui-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.devui-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: $devui-line;
+}
+.devui-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: $devui-placeholder;
+}
+
+.devui-scroll-overlay {
+  overflow: auto;
+}
+.devui-scroll-overlay::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+.devui-scroll-overlay:hover::-webkit-scrollbar-thumb {
+  background-color: $devui-line;
+}
+.devui-scroll-overlay:hover::-webkit-scrollbar-thumb:hover {
+  background-color: $devui-placeholder;
+}
+
+.devui-text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+button.copy {
+  display: none;
+}
+
+// 以下13行是防止滚动条显示与隐藏时页面抖动
+:root {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+:root body {
+  position: absolute;
+}
+
+#app {
+  width: 100vw;
+  overflow: hidden;
+}

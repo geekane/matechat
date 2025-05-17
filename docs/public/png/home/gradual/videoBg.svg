@@ -1,0 +1,31 @@
+<svg width="1169.000000" height="471.000000" viewBox="0 0 1169 471" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_207_42463_dd" x="0.000000" y="8.000000" width="830.000000" height="463.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="33.3333" result="effect_layerBlur_1"/>
+		</filter>
+		<filter id="filter_207_42464_dd" x="339.000000" y="0.000000" width="830.000000" height="471.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="33.3333" result="effect_layerBlur_1"/>
+		</filter>
+		<linearGradient x1="-455.000000" y1="-241.000244" x2="414.999329" y2="370.999634" id="paint_linear_207_42463_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#CAB8FF"/>
+			<stop offset="1.000000" stop-color="#F6E7FF"/>
+		</linearGradient>
+		<linearGradient x1="1068.999268" y1="30.500000" x2="789.500000" y2="371.000000" id="paint_linear_207_42464_0" gradientUnits="userSpaceOnUse">
+			<stop offset="0.001523" stop-color="#86D5FF"/>
+			<stop offset="0.982343" stop-color="#DDEFFF"/>
+		</linearGradient>
+	</defs>
+	<g opacity="0.600000" filter="url(#filter_207_42463_dd)">
+		<path id="矩形 1879" d="M124 108L415 108L706 108C719.25 108 730 118.74 730 132L730 347C730 360.25 719.25 371 706 371L124 371C110.74 371 100 360.25 100 347L100 132C100 118.74 110.74 108 124 108Z" fill="url(#paint_linear_207_42463_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<g opacity="0.600000" filter="url(#filter_207_42464_dd)">
+		<rect id="矩形 1878" x="439.000000" y="100.000000" rx="24.000000" width="630.000000" height="271.000000" fill="url(#paint_linear_207_42464_0)" fill-opacity="1.000000"/>
+	</g>
+</svg>
