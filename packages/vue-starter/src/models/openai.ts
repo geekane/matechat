@@ -63,12 +63,12 @@ export class OpenAiService implements LLMService {
 
       let fullAnswer = '';
       for await (const chunk of completion) {
-        const answer = chunk.choices[0]?.delta?.reasoning_content
-          ? chunk.choices[0]?.delta?.reasoning_content
-          : chunk.choices[0]?.delta?.content || '';
+        const answer = chunk.choices[0]?.delta?.content || '';
 
         fullAnswer += answer;
-        request.streamOptions?.onMessage?.(answer);
+        if (answer && request.streamOptions?.onMessage) {
+          request.streamOptions.onMessage(answer);
+        }
       }
       request.streamOptions?.onComplete?.();
       return fullAnswer;
